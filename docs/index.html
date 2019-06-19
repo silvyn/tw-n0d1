@@ -179,6 +179,12 @@ Error message and password prompt
 
 <li>$:/n0d1</li>
 
+<li>$:/n0d1/changelog</li>
+
+<li>$:/n0d1/changelog/20190618</li>
+
+<li>$:/n0d1/changelog/20190619</li>
+
 <li>$:/n0d1/color-edit</li>
 
 <li>$:/n0d1/css/back2top</li>
@@ -263,6 +269,8 @@ Error message and password prompt
 
 <li>$:/SiteTitle</li>
 
+<li>$:/state/Excise/--1812303817/tagnew</li>
+
 <li>$:/state/image-picker/system--1217244810</li>
 
 <li>$:/state/showeditpreview</li>
@@ -294,6 +302,8 @@ Error message and password prompt
 <li>$:/state/tag-manager/TiddlyWiki</li>
 
 <li>$:/state/tag-manager/Todo</li>
+
+<li>$:/state/tree/$:/n0d1/changelog/</li>
 
 <li>$:/state/tree/$:/n0d1/css/</li>
 
@@ -545,8 +555,6 @@ Error message and password prompt
 
 <li>Progression</li>
 
-<li>Release</li>
-
 <li>Ressources</li>
 
 <li>Tâche terminée</li>
@@ -569,22 +577,22 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
-<div created="20190616151640400" modified="20190619190155987" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<div created="20190616151640400" modified="20190619192305312" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
 <pre>hide</pre>
 </div>
 <div created="20190616123140000" modified="20190616123140000" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
-<div created="20190616151640400" modified="20190619190155987" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
+<div created="20190616151640400" modified="20190619192305312" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
 <pre>hide</pre>
 </div>
-<div created="20190616151640400" modified="20190619190155987" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
+<div created="20190616151640400" modified="20190619192305312" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
 <pre>hide</pre>
 </div>
-<div created="20190616151640400" modified="20190619190155987" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
+<div created="20190616151640400" modified="20190619192305312" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
 <pre>hide</pre>
 </div>
-<div created="20190616151640400" modified="20190619190155986" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
+<div created="20190616151640400" modified="20190619192305311" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
 <pre>hide</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.19">
@@ -9466,7 +9474,7 @@ Error message and password prompt
 <div created="20190618190954100" modified="20190618193448400" tags="$:/tags/Image" title="$:/core/images/chevron-right">
 <pre>&lt;&lt;fa angle-right 2 #ecf0f1&gt;&gt;</pre>
 </div>
-<div caption="{{$:/language/Search/Filter/Caption}}" created="20190616151640500" modified="20190619190155988" tags="" title="$:/core/ui/AdvancedSearch/Filter">
+<div caption="{{$:/language/Search/Filter/Caption}}" created="20190616151640500" modified="20190619192305313" tags="" title="$:/core/ui/AdvancedSearch/Filter">
 <pre>\define lingo-base() $:/language/Search/
 &lt;&lt;lingo Filter/Hint&gt;&gt;
 
@@ -9485,7 +9493,7 @@ Error message and password prompt
 &lt;/$reveal&gt;
 </pre>
 </div>
-<div caption="{{$:/language/Search/Shadows/Caption}}" created="20190616151640500" modified="20190619190155988" tags="" title="$:/core/ui/AdvancedSearch/Shadows">
+<div caption="{{$:/language/Search/Shadows/Caption}}" created="20190616151640500" modified="20190619192305313" tags="" title="$:/core/ui/AdvancedSearch/Shadows">
 <pre>\define lingo-base() $:/language/Search/
 &lt;$linkcatcher to=&quot;$:/temp/advancedsearch&quot;&gt;
 
@@ -9528,7 +9536,7 @@ Error message and password prompt
 &lt;/$reveal&gt;
 </pre>
 </div>
-<div caption="{{$:/language/Search/System/Caption}}" created="20190616151640500" modified="20190619190155988" tags="" title="$:/core/ui/AdvancedSearch/System">
+<div caption="{{$:/language/Search/System/Caption}}" created="20190616151640500" modified="20190619192305313" tags="" title="$:/core/ui/AdvancedSearch/System">
 <pre>\define lingo-base() $:/language/Search/
 &lt;$linkcatcher to=&quot;$:/temp/advancedsearch&quot;&gt;
 
@@ -9571,12 +9579,12 @@ Error message and password prompt
 &lt;/$reveal&gt;
 </pre>
 </div>
-<div caption="{{$:/language/SideBar/More/Caption}}" created="20190616151640500" modified="20190619190155988" tags="" title="$:/core/ui/SideBar/More">
+<div caption="{{$:/language/SideBar/More/Caption}}" created="20190616151640500" modified="20190619192305313" tags="" title="$:/core/ui/SideBar/More">
 <pre>&lt;div class=&quot;tc-more-sidebar&quot;&gt;
 &lt;$macrocall $name=&quot;tabs&quot; tabsList=&quot;[all[shadows+tiddlers]tag[$:/tags/MoreSideBar]!has[draft.of]]&quot; default={{$:/config/DefaultMoreSidebarTab}} state=&quot;$:/state/tab/moresidebar&quot; class=&quot;tc-vertical&quot; /&gt;
 &lt;/div&gt;</pre>
 </div>
-<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20190616151640500" modified="20190619190155988" tags="" title="$:/core/ui/SideBar/Tools">
+<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20190616151640500" modified="20190619192305313" tags="" title="$:/core/ui/SideBar/Tools">
 <pre>\define lingo-base() $:/language/ControlPanel/
 \define config-title()
 $:/config/PageControlButtons/Visibility/$(listItem)$
@@ -13280,6 +13288,73 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20190619173201095" modified="20190619173205958" title="$:/n0d1">
 <pre>{{n0d1}}</pre>
 </div>
+<div created="20190619163518804" modified="20190619191832100" tags="TiddlyWiki" title="$:/n0d1/changelog">
+<pre>!Journal des modifications
+
+&lt;&lt;list-links &quot;[tag[$:/n0d1/changelog]sort[!title]]&quot;&gt;&gt;
+
+
+{{$:/n0d1/changelog/20190619}}
+
+{{$:/n0d1/changelog/20190618}}
+
+!Évolutions à étudier/traiter
+
+*voir si exlusion possible pour la règle :before des tiddlers manquant (visible sur la liste des filtres en recherche avancée ou les tags).</pre>
+</div>
+<div created="20190619191102609" modified="20190619191102609" tags="$:/n0d1/changelog" title="$:/n0d1/changelog/20190618">
+<pre>!!Mardi 18/06
+*Glisser/déposer de l'élément `$:/core/ui/ViewTemplate/subtitle` depuis le tag {{$:/tags/ViewTemplate||$:/core/ui/TagTemplate}}  pour déplacer vers le bas des tiddlers les sous-titres.
+**Effet kisscool : corrige le positionnement du picto &lt;&lt;fa caret-up&gt;&gt; vers le haut ($:/n0d1/ui/back-top) dans les tiddlers en version mobile &lt;&lt;far smile-beam&quot;&gt;&gt;
+
+*Mise à jour $:/core/images/chevron-left
+**avec icône FA &lt;&lt;fa angle-left&gt;&gt;
+*Mise à jour $:/core/images/chevron-right
+**avec icône FA &lt;&lt;fa angle-right&gt;&gt;
+*Mise à jour $:/n0d1/css/ui pour repositionner légèrement le picto pour afficher/cacher la barre latérale.
+
+
+```css
+/* positionnement picto pour afficher/masquer la barre latérale */
+.tc-topbar-right {
+    top: 0px;
+    right: 12px;
+}
+```</pre>
+</div>
+<div created="20190619191037541" modified="20190619191810410" tags="$:/n0d1/changelog" title="$:/n0d1/changelog/20190619">
+<pre>!!Mercredi 19/06
+*Mise à jour $:/TheDiveO/css/fa
+**Ajout de plusieurs services (twitter, github, instagram, wikipedia, etc..)
+**Ajout picto &lt;&lt;fas wrench&gt;&gt; devant les liens internes des tiddlers manquants : ParExemple.
+
+
+```css
+/** twitter **/
+a[href^=&quot;https://twitter.com&quot;].tc-tiddlylink-external:before {
+  &lt;&lt;fa-plugin-font-brands&gt;&gt;
+  content: '\f099\202f';
+  display: inline-block;
+  color: #1da1f2;
+}
+```
+
+```css
+/** tc-tiddlylink tc-tiddlylink-missing **/
+a.tc-tiddlylink.tc-tiddlylink-missing:before {
+  &lt;&lt;fa-plugin-font-solid&gt;&gt;
+  content: '\f0ad';
+  display: inline-block;
+  color: #E04540;
+}
+```
+
+*Mise à jour $:/core/ui/ViewTemplate/subtitle
+**Correction d'un filtre obsolète issu d'un précédent wiki, qui avait pour conséquence d'afficher la clé à molette devant le sous-titre.
+*Ajout $:/n0d1/snippet/tag-count
+*Ajout $:/n0d1/snippet/tag
+*Ajout $:/n0d1/changelog</pre>
+</div>
 <div caption="Couleurs" created="20160828082942233" menu-icon="{{$:/n0d1/fa/paint-brush}}" modified="20190616193134600" tags="$:/tags/ControlPanel" title="$:/n0d1/color-edit">
 <pre>@@.ms-alert
 &lt;&lt;fa bell&gt;&gt; Au préalable sélectionner la bonne palette dans le panneau de configuration ($:/core/ui/ControlPanel/Palette).
@@ -14642,11 +14717,11 @@ Ce wiki utilise la version ''&lt;&lt;version&gt;&gt;'' de TiddlyWiki.
 Jardiné avec &lt;&lt;fas heart 1 #D54F58&gt;&gt; par Sylvain Naudin&lt;br&gt;
 (sylvain@naudin.cc &lt;&lt;fa envelope&gt;&gt; - https://sylvain.naud.in - @naudinsylvain &lt;&lt;fab twitter&gt;&gt;)</pre>
 </div>
-<div created="20181229120346400" modified="20190619190155987" tags="$:/tags/Stylesheet" title="$:/n0d1/tw/mode/css" type="text/vnd.tiddlywiki">
+<div created="20181229120346400" modified="20190619192305313" tags="$:/tags/Stylesheet" title="$:/n0d1/tw/mode/css" type="text/vnd.tiddlywiki">
 <pre>/* pas encore utilisée - peut servir à masquer/afficher avec le bouton mode switch si besoin */
 </pre>
 </div>
-<div created="20160213171200960" modified="20190619190155987" title="$:/n0d1/tw/mode/state" type="text/vnd.tiddlywiki">
+<div created="20160213171200960" modified="20190619192305312" title="$:/n0d1/tw/mode/state" type="text/vnd.tiddlywiki">
 <pre>lecture</pre>
 </div>
 <div created="20190616153154500" description="Basculer en mode lecture/écriture" modified="20190617195330700" tags="$:/tags/PageControls" title="$:/n0d1/tw/mode/toggle" type="text/vnd.tiddlywiki">
@@ -14902,7 +14977,7 @@ Jardiné avec &lt;&lt;fas heart 1 #D54F58&gt;&gt; par Sylvain Naudin&lt;br&gt;
     }
 }</pre>
 </div>
-<div created="20190616151640400" link-action="tm-navigate" modified="20190619190155987" show-all-links="none" show-single-link="none" title="$:/plugins/wikilabs/edit-tabs/config">
+<div created="20190616151640400" link-action="tm-navigate" modified="20190619192305312" show-all-links="none" show-single-link="none" title="$:/plugins/wikilabs/edit-tabs/config">
 <pre>This tiddler is used to configure the &quot;Edit-tabs&quot; plugin behaviour. 
 
 There are 2 fields, which are used by [[$:/plugins/wikilabs/edit-tabs/styles]] enable and disable the internal links. 
@@ -14921,6 +14996,9 @@ The next field is used to define the behaviour of the link, if it's clicked.
 <div created="20190616123108400" modified="20190616164525500" title="$:/SiteTitle">
 <pre>~TiddlyWiki</pre>
 </div>
+<div created="20190619191035885" modified="20190619191035885" title="$:/state/Excise/--1812303817/tagnew">
+<pre>yes</pre>
+</div>
 <div created="20190616162213700" modified="20190616162213700" title="$:/state/image-picker/system--1217244810">
 <pre>show</pre>
 </div>
@@ -14930,11 +15008,11 @@ The next field is used to define the behaviour of the link, if it's clicked.
 <div created="20190616143935700" modified="20190616144056000" title="$:/state/ShowPaletteEditor">
 <pre>no</pre>
 </div>
-<div created="20190616151640500" modified="20190619190155987" title="$:/state/sidebar">
+<div created="20190616151640500" modified="20190619192305312" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20190616124130200" modified="20190618190729500" title="$:/state/tab--1498284803">
-<pre>$:/core/ui/AdvancedSearch/Shadows</pre>
+<div created="20190616124130200" modified="20190619191204071" title="$:/state/tab--1498284803">
+<pre>$:/core/ui/AdvancedSearch/System</pre>
 </div>
 <div created="20190616123133700" modified="20190616163129300" title="$:/state/tab--1963855381">
 <pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
@@ -14951,7 +15029,7 @@ The next field is used to define the behaviour of the link, if it's clicked.
 <div created="20190616125137200" modified="20190616194905200" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Tags</pre>
 </div>
-<div created="20190616123138500" modified="20190619170738156" title="$:/state/tab/sidebar--595412856">
+<div created="20190616123138500" modified="20190619192138040" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Open</pre>
 </div>
 <div created="20190616184653600" modified="20190616184659500" title="$:/state/tag-manager/minstyle.io">
@@ -14968,6 +15046,9 @@ The next field is used to define the behaviour of the link, if it's clicked.
 </div>
 <div created="20190616184731300" modified="20190616194627600" title="$:/state/tag-manager/Todo">
 <pre>closed</pre>
+</div>
+<div created="20190619192142548" modified="20190619192151566" title="$:/state/tree/$:/n0d1/changelog/">
+<pre>show</pre>
 </div>
 <div created="20190616125055300" modified="20190616125055300" title="$:/state/tree/$:/n0d1/css/">
 <pre>show</pre>
@@ -15008,7 +15089,7 @@ The next field is used to define the behaviour of the link, if it's clicked.
 <div created="20190616201013100" modified="20190616201013100" title="$:/state/tree/$:/TheDiveO/macro/">
 <pre>show</pre>
 </div>
-<div list="n0d1" title="$:/StoryList">
+<div created="20190619190512562" list="n0d1" modified="20190619192153832" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20190616173012200" list="$:/language/Snippets/ListByTag $:/language/Snippets/MacroDefinition $:/language/Snippets/Table4x3 $:/language/Snippets/TableOfContents $:/n0d1/snippet/@alerte $:/n0d1/snippet/@information $:/n0d1/snippet/@valide $:/n0d1/snippet/@completer $:/n0d1/snippet/@titre $:/n0d1/snippet/@neutre $:/n0d1/snippet/@clear" modified="20190616173015400" title="$:/tags/TextEditor/Snippet">
@@ -15017,7 +15098,7 @@ The next field is used to define the behaviour of the link, if it's clicked.
 <div created="20190618195308500" list="$:/core/ui/ViewTemplate/import $:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/unfold $:/core/ui/ViewTemplate/tags $:/core/ui/ViewTemplate/classic $:/core/ui/ViewTemplate/body $:/n0d1/ui/back-top $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/plugin" modified="20190619163408717" title="$:/tags/ViewTemplate">
 <pre></pre>
 </div>
-<div created="20190616124130200" modified="20190618194649200" title="$:/temp/advancedsearch">
+<div created="20190616124130200" modified="20190619191647435" title="$:/temp/advancedsearch">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -15749,7 +15830,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div author="JeremyRuston" core-version="&gt;=5.0.0" created="20190616123056000" dependents="" description="Basic theme" modified="20190616123056000" name="Vanilla" original-plugin-type="theme" original-tags="" original-title="$:/themes/tiddlywiki/vanilla" original-type="application/json" plugin-priority="0" server-url="https://tiddlywiki.com/library/v5.1.19/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.19/index.html/$:/themes/tiddlywiki/vanilla" type="text/vnd.tiddlywiki" version="5.1.19">
 <pre></pre>
 </div>
-<div created="20190616151640500" modified="20190619190155987" title="$:/temp/search">
+<div created="20190616151640500" modified="20190619192305312" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20190616125518200" modified="20190616125518200" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.19/index.html" url="https://tiddlywiki.com/library/v5.1.19/index.html">
@@ -16917,64 +16998,6 @@ Sauf mention contraire, le contenu de ce wiki est sous licence [[Creative Common
 
 </pre>
 </div>
-<div created="20190619163518804" modified="20190619175011198" tags="TiddlyWiki" title="Release">
-<pre>!Historique des modifications
-
-!!Mardi 18/06
-*Glisser/déposer de l'élément `$:/core/ui/ViewTemplate/subtitle` depuis le tag {{$:/tags/ViewTemplate||$:/core/ui/TagTemplate}}  pour déplacer vers le bas des tiddlers les sous-titres.
-**Effet kisscool : corrige le positionnement du picto &lt;&lt;fa caret-up&gt;&gt; vers le haut ($:/n0d1/ui/back-top) dans les tiddlers en version mobile &lt;&lt;far smile-beam&quot;&gt;&gt;
-
-*Mise à jour $:/core/images/chevron-left
-**avec icône FA &lt;&lt;fa angle-left&gt;&gt;
-*Mise à jour $:/core/images/chevron-right
-**avec icône FA &lt;&lt;fa angle-right&gt;&gt;
-*Mise à jour $:/n0d1/css/ui pour repositionner légèrement le picto pour afficher/cacher la barre latérale.
-
-
-```css
-/* positionnement picto pour afficher/masquer la barre latérale */
-.tc-topbar-right {
-    top: 0px;
-    right: 12px;
-}
-```
-
-
-!!Mercredi 19/06
-*Mise à jour $:/TheDiveO/css/fa
-**Ajout de plusieurs services (twitter, github, instagram, wikipedia, etc..)
-**Ajout picto &lt;&lt;fas wrench&gt;&gt; devant les liens internes des tiddlers manquants : ParExemple.
-
-
-```css
-/** twitter **/
-a[href^=&quot;https://twitter.com&quot;].tc-tiddlylink-external:before {
-  &lt;&lt;fa-plugin-font-brands&gt;&gt;
-  content: '\f099\202f';
-  display: inline-block;
-  color: #1da1f2;
-}
-```
-
-```css
-/** tc-tiddlylink tc-tiddlylink-missing **/
-a.tc-tiddlylink.tc-tiddlylink-missing:before {
-  &lt;&lt;fa-plugin-font-solid&gt;&gt;
-  content: '\f0ad';
-  display: inline-block;
-  color: #E04540;
-}
-```
-
-*Mise à jour $:/core/ui/ViewTemplate/subtitle
-**Correction d'un filtre obsolète issu d'un précédent wiki, qui avait pour conséquence d'afficher la clé à molette devant le sous-titre.
-*Ajout $:/n0d1/snippet/tag-count
-*Ajout $:/n0d1/snippet/tag
-
-!Évolutions à étudier/traiter
-
-*voir si exlusion possible pour la règle :before des tiddlers manquant (visible sur la liste des filtres en recherche avancée ou les tags).</pre>
-</div>
 <div color="" created="20190616171848100" modified="20190616194914200" tags="" title="Ressources">
 <pre>Couleur hexadecimal vs RVB https://www.webfx.com/web-design/hex-to-rgb/
 
@@ -16989,7 +17012,7 @@ Optimiser SVG : https://jakearchibald.github.io/svgomg/
 <div color="#5ca745" created="20190616194917100" modified="20190616194917100" title="Terminée">
 <pre></pre>
 </div>
-<div color="#5778d8" created="20190616124249400" modified="20190619164625164" title="TiddlyWiki">
+<div color="#5778d8" created="20190616124249400" modified="20190619192246472" title="TiddlyWiki">
 <pre>''~TiddlyWiki'' (TW) est un programme Open Source sous licence &lt;abbr title=&quot;Berkeley software distribution&quot;&gt;BSD&lt;/abbr&gt; créé par ''Jeremy Ruston''.
 
 https://www.tiddlywiki.com &lt;&lt;fa link 1 #3498DB&gt;&gt;
@@ -17016,6 +17039,7 @@ Pour sauvegarder une copie de ce fichier, cliquez sur le bouton suivant :
 #Installer le plugin FR via $:/ControlPanel &gt; Plugins &gt; Ajouter des plugins &gt; Langues
 #Dans $:/ControlPanel &gt; Réglages du thème &gt; Options &gt; Agencement de la barre latérale : Déroulé extensible, barre latérale fixe
 #..Et puis tous les tiddlers suivants &lt;&lt;far smile-wink&gt;&gt;
+#Consulter $:/n0d1/changelog pour l'historique des mises à jour.
 
 !!&lt;&lt;fa cogs&gt;&gt; Plugins
 
