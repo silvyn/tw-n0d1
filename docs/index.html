@@ -169,6 +169,8 @@ Error message and password prompt
 
 <li>$:/DefaultTiddlers</li>
 
+<li>$:/favicon.ico</li>
+
 <li>$:/Import</li>
 
 <li>$:/isEncrypted</li>
@@ -184,6 +186,8 @@ Error message and password prompt
 <li>$:/n0d1/changelog/20190618</li>
 
 <li>$:/n0d1/changelog/20190619</li>
+
+<li>$:/n0d1/changelog/20190620</li>
 
 <li>$:/n0d1/color-edit</li>
 
@@ -577,22 +581,22 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
-<div created="20190616151640400" modified="20190619194522537" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<div created="20190616151640400" modified="20190620194138279" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
 <pre>hide</pre>
 </div>
 <div created="20190616123140000" modified="20190616123140000" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
-<div created="20190616151640400" modified="20190619194522537" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
+<div created="20190616151640400" modified="20190620194138279" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
 <pre>hide</pre>
 </div>
-<div created="20190616151640400" modified="20190619194522537" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
+<div created="20190616151640400" modified="20190620194138279" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
 <pre>hide</pre>
 </div>
-<div created="20190616151640400" modified="20190619194522537" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
+<div created="20190616151640400" modified="20190620194138279" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
 <pre>hide</pre>
 </div>
-<div created="20190616151640400" modified="20190619194522537" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
+<div created="20190616151640400" modified="20190620194138279" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
 <pre>hide</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.19">
@@ -9474,7 +9478,7 @@ Error message and password prompt
 <div created="20190618190954100" modified="20190618193448400" tags="$:/tags/Image" title="$:/core/images/chevron-right">
 <pre>&lt;&lt;fa angle-right 2 #ecf0f1&gt;&gt;</pre>
 </div>
-<div caption="{{$:/language/Search/Filter/Caption}}" created="20190616151640500" modified="20190619194522538" tags="" title="$:/core/ui/AdvancedSearch/Filter">
+<div caption="{{$:/language/Search/Filter/Caption}}" created="20190616151640500" modified="20190620194138279" tags="" title="$:/core/ui/AdvancedSearch/Filter">
 <pre>\define lingo-base() $:/language/Search/
 &lt;&lt;lingo Filter/Hint&gt;&gt;
 
@@ -9493,7 +9497,7 @@ Error message and password prompt
 &lt;/$reveal&gt;
 </pre>
 </div>
-<div caption="{{$:/language/Search/Shadows/Caption}}" created="20190616151640500" modified="20190619194522538" tags="" title="$:/core/ui/AdvancedSearch/Shadows">
+<div caption="{{$:/language/Search/Shadows/Caption}}" created="20190616151640500" modified="20190620194138279" tags="" title="$:/core/ui/AdvancedSearch/Shadows">
 <pre>\define lingo-base() $:/language/Search/
 &lt;$linkcatcher to=&quot;$:/temp/advancedsearch&quot;&gt;
 
@@ -9536,7 +9540,7 @@ Error message and password prompt
 &lt;/$reveal&gt;
 </pre>
 </div>
-<div caption="{{$:/language/Search/System/Caption}}" created="20190616151640500" modified="20190619194522538" tags="" title="$:/core/ui/AdvancedSearch/System">
+<div caption="{{$:/language/Search/System/Caption}}" created="20190616151640500" modified="20190620194138279" tags="" title="$:/core/ui/AdvancedSearch/System">
 <pre>\define lingo-base() $:/language/Search/
 &lt;$linkcatcher to=&quot;$:/temp/advancedsearch&quot;&gt;
 
@@ -9579,12 +9583,12 @@ Error message and password prompt
 &lt;/$reveal&gt;
 </pre>
 </div>
-<div caption="{{$:/language/SideBar/More/Caption}}" created="20190616151640500" modified="20190619194522538" tags="" title="$:/core/ui/SideBar/More">
+<div caption="{{$:/language/SideBar/More/Caption}}" created="20190616151640500" modified="20190620194138279" tags="" title="$:/core/ui/SideBar/More">
 <pre>&lt;div class=&quot;tc-more-sidebar&quot;&gt;
 &lt;$macrocall $name=&quot;tabs&quot; tabsList=&quot;[all[shadows+tiddlers]tag[$:/tags/MoreSideBar]!has[draft.of]]&quot; default={{$:/config/DefaultMoreSidebarTab}} state=&quot;$:/state/tab/moresidebar&quot; class=&quot;tc-vertical&quot; /&gt;
 &lt;/div&gt;</pre>
 </div>
-<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20190616151640500" modified="20190619194522538" tags="" title="$:/core/ui/SideBar/Tools">
+<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20190616151640500" modified="20190620194138279" tags="" title="$:/core/ui/SideBar/Tools">
 <pre>\define lingo-base() $:/language/ControlPanel/
 \define config-title()
 $:/config/PageControlButtons/Visibility/$(listItem)$
@@ -9615,25 +9619,28 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 &lt;/$set&gt;
 </pre>
 </div>
-<div created="20190609122927800" modified="20190619061447973" tags="$:/tags/ViewTemplate" title="$:/core/ui/ViewTemplate/subtitle" type="application/x-tiddler">
+<div created="20190609122927800" modified="20190620111129664" tags="$:/tags/ViewTemplate" title="$:/core/ui/ViewTemplate/subtitle" type="application/x-tiddler">
 <pre>&lt;$reveal type=&quot;nomatch&quot; state=&lt;&lt;folded-state&gt;&gt; text=&quot;hide&quot; tag=&quot;div&quot; retain=&quot;yes&quot; animate=&quot;yes&quot;&gt;
 &lt;div class=&quot;tc-subtitle&quot;&gt;
-&lt;&lt;fa save&gt;&gt; &lt;$list filter=&quot;[is[current]has[created]]&quot;&gt;&lt;$view field=&quot;created&quot; format=&quot;date&quot; template={{$:/language/Tiddler/DateFormat}}/&gt;&lt;/$list&gt; &lt;&lt;fa clock&gt;&gt; Dernière mise à jour : 
-&lt;$list filter=&quot;[is[current]has[modified]]&quot;&gt; &lt;$view field=&quot;modified&quot; format=&quot;date&quot; template={{$:/language/Tiddler/DateFormat}}/&gt;&lt;/$list&gt;
+&lt;$list filter=&quot;[is[current]has[created]]&quot;&gt;&lt;&lt;fa save&gt;&gt; &lt;$view field=&quot;created&quot; format=&quot;date&quot; template={{$:/language/Tiddler/DateFormat}}/&gt;&lt;/$list&gt;
+&lt;$list filter=&quot;[is[current]has[modified]]&quot;&gt;&lt;&lt;fa clock&gt;&gt; Dernière mise à jour : &lt;$view field=&quot;modified&quot; format=&quot;relativedate&quot; template={{$:/language/Tiddler/DateFormat}}/&gt;&lt;/$list&gt;
 &lt;/div&gt;
 &lt;/$reveal&gt;
 
-&lt;!--format=&quot;relativedate&quot; --&gt;
+&lt;!--format=&quot;relativedate&quot;  ou &quot;date&quot; --&gt;
 </pre>
 </div>
 <div created="20190616123124900" modified="20190616201556200" title="$:/DefaultTiddlers">
 <pre>n0d1
 </pre>
 </div>
+<div created="20190620194003041" modified="20190620194005934" title="$:/favicon.ico" type="image/png">
+<pre>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFkSURBVDiNpZO9SkNBEIW/GUMkjY+gndEQwb+nsLCy0QeQdOlvY2erscnFB9DmVhLyFBpShPhT+AD2ekXirIWzsGpUxAPDsLPnHJbZGQkhkEJzWwT2gA0PgCuPM2vpXcqXaKC5CdAGDoGa35ee03MGdKylAUATcQ848toBsAbMeax5TZ3Tcw0Vd24DW8A1sGMtHQPIKSsAYZ8hMNTcCqBwbhs4Fum+LgJDd19PxEtiNgYIqo2wz42/tgEMAANW1RtWAw6j2PEETDyeYtE5sU+7mnT6Iu0uVR5CReuhonWqPPARkbsZDUpgFG9nunYiz1bKxO5lYvfybOVMbp3EYOSaDWUKgsj8lxqyMI2rvA9IDWhOI3yDpmuuogHA9h8MIvdSgTN8wvyLfoRzMtecq892BswChebWEMLtZ6EQbl1cODezlt7FJnaAPrAMDAI8fjbw2sA5fdf8ukwvnquevyyT/Hed3wAH8ZXhHF8a2gAAAABJRU5ErkJggg==</pre>
+</div>
 <div status="complete" title="$:/Import">
 <pre>Les tiddlers suivants ont été importés :
 
-# [[$:/plugins/TheDiveO/FontAwesome/styles/tiddlylinks/system]]</pre>
+# [[favicon.png]]</pre>
 </div>
 <div title="$:/isEncrypted">
 <pre>no</pre>
@@ -12042,7 +12049,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
         },
         &quot;$:/language/EditTemplate/Title/References/Prompt&quot;: {
             &quot;title&quot;: &quot;$:/language/EditTemplate/Title/References/Prompt&quot;,
-            &quot;text&quot;: &quot;Les références suivantes à ce tiddler ne seront pas mises à jour automatiquement :&quot;
+            &quot;text&quot;: &quot;Les références suivantes à ce tiddler ne seront pas mises à jour automatiquement :&quot;
         },
         &quot;$:/language/EditTemplate/Type/Dropdown/Caption&quot;: {
             &quot;title&quot;: &quot;$:/language/EditTemplate/Type/Dropdown/Caption&quot;,
@@ -12294,7 +12301,7 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
         &quot;$:/language/Help/fetch&quot;: {
             &quot;title&quot;: &quot;$:/language/Help/fetch&quot;,
             &quot;description&quot;: &quot;Télécharge des tiddlers depuis un wiki à partir de leurs URL&quot;,
-            &quot;text&quot;: &quot;Télécharge un ou plusieurs fichiers via HTTP/HTTPS, puis importe les tiddlers correspondant à un filtre, en transformant optionnellement les titres des tiddlers importés.\n\n```\n--fetch file &lt;url&gt; &lt;filtre-import&gt; &lt;filtre-de-transformation&gt;\n--fetch files &lt;filtre-urls&gt; &lt;filtre-import&gt; &lt;filtre-de-transformation&gt;\n```\n\nAvec la variante \&quot;file\&quot;, un seul fichier est téléchargé et le premier paramètre est l'URL du fichier à lire.\n\nAvec la variante \&quot;files\&quot;, plusieurs fichiers sont téléchargés et le premier paramètre est un filtre produisant une liste d'URLs pour les fichiers à lire. Par exemple, étant donné un ensemble de tiddlers tagués \&quot;remote-server\&quot; et disposant d'un champ \&quot;url\&quot;, le filtre `[tag[remote-server]get[url]]` permet de récupérer toutes les URLs disponibles.\n\nLe paramètre `&lt;filtre-import&gt;` spécifie un filtre qui détermine quels tiddlers seront importés. Lorsqu'il n'est pas indiqué, il prend comme valeur par défaut `[all[tiddlers]]`.\n\nLe paramètre `&lt;filtre de transformation&gt;` spécifie un filtre optionnel qui transforme les titres des tiddlers importés. Par exemple, `[addprefix[$:/myimports/]]` permettrait d'ajouter le préfixe `$:/myimports/` à chaque titre.\n\nOn obtient des informations concernant la progression de l'importation en faisant précéder la commande `--fetch` de la commande `--verbose`.\n\nIl faut noter que TiddlyWiki ne téléchargera pas une version plus ancienne d'un plugin déjà chargé.\n\nL'exemple ci-dessous récupère tous les tiddlers non-système de https://tiddlywiki.com et les enregistre dans un fichier JSON :\n\n```\ntiddlywiki --verbose --fetch file \&quot;https://tiddlywiki.com/\&quot; \&quot;[!is[system]]\&quot; \&quot;\&quot; --rendertiddler \&quot;$:/core/templates/exporters/JsonFile\&quot; output.json text/plain \&quot;\&quot; exportFilter \&quot;[!is[system]]\&quot;\n```\n\n&quot;
+            &quot;text&quot;: &quot;Télécharge un ou plusieurs fichiers via HTTP/HTTPS, puis importe les tiddlers correspondant à un filtre, en transformant optionnellement les titres des tiddlers importés.\n\n```\n--fetch file &lt;url&gt; &lt;filtre-import&gt; &lt;filtre-de-transformation&gt;\n--fetch files &lt;filtre-urls&gt; &lt;filtre-import&gt; &lt;filtre-de-transformation&gt;\n```\n\nAvec la variante \&quot;file\&quot;, un seul fichier est téléchargé et le premier paramètre est l'URL du fichier à lire.\n\nAvec la variante \&quot;files\&quot;, plusieurs fichiers sont téléchargés et le premier paramètre est un filtre produisant une liste d'URLs pour les fichiers à lire. Par exemple, étant donné un ensemble de tiddlers tagués \&quot;remote-server\&quot; et disposant d'un champ \&quot;url\&quot;, le filtre `[tag[remote-server]get[url]]` permet de récupérer toutes les URLs disponibles.\n\nLe paramètre `&lt;filtre-import&gt;` spécifie un filtre qui détermine quels tiddlers seront importés. Lorsqu'il n'est pas indiqué, il prend comme valeur par défaut `[all[tiddlers]]`.\n\nLe paramètre `&lt;filtre de transformation&gt;` spécifie un filtre optionnel qui transforme les titres des tiddlers importés. Par exemple, `[addprefix[$:/myimports/]]` permettrait d'ajouter le préfixe `$:/myimports/` à chaque titre.\n\nOn obtient des informations concernant la progression de l'importation en faisant précéder la commande `--fetch` de la commande `--verbose`.\n\nIl faut noter que TiddlyWiki ne téléchargera pas une version plus ancienne d'un plugin déjà chargé.\n\nL'exemple ci-dessous récupère tous les tiddlers non-système de https://tiddlywiki.com et les enregistre dans un fichier JSON :\n\n```\ntiddlywiki --verbose --fetch file \&quot;https://tiddlywiki.com/\&quot; \&quot;[!is[system]]\&quot; \&quot;\&quot; --rendertiddler \&quot;$:/core/templates/exporters/JsonFile\&quot; output.json text/plain \&quot;\&quot; exportFilter \&quot;[!is[system]]\&quot;\n```\n\n&quot;
         },
         &quot;$:/language/Help/help&quot;: {
             &quot;title&quot;: &quot;$:/language/Help/help&quot;,
@@ -12784,11 +12791,11 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
         },
         &quot;$:/language/Notifications/CopiedToClipboard/Succeeded&quot;: {
             &quot;title&quot;: &quot;$:/language/Notifications/CopiedToClipboard/Succeeded&quot;,
-            &quot;text&quot;: &quot;Copié dans le presse-papier !&quot;
+            &quot;text&quot;: &quot;Copié dans le presse-papier !&quot;
         },
         &quot;$:/language/Notifications/CopiedToClipboard/Failed&quot;: {
             &quot;title&quot;: &quot;$:/language/Notifications/CopiedToClipboard/Failed&quot;,
-            &quot;text&quot;: &quot;La copie dans le presse-papier a échoué !&quot;
+            &quot;text&quot;: &quot;La copie dans le presse-papier a échoué !&quot;
         },
         &quot;$:/language/Search/DefaultResults/Caption&quot;: {
             &quot;title&quot;: &quot;$:/language/Search/DefaultResults/Caption&quot;,
@@ -13288,19 +13295,19 @@ $:/config/PageControlButtons/Visibility/$(listItem)$
 <div created="20190619173201095" modified="20190619173205958" title="$:/n0d1">
 <pre>{{n0d1}}</pre>
 </div>
-<div created="20190619163518804" modified="20190619194331599" tags="TiddlyWiki" title="$:/n0d1/changelog">
+<div created="20190619163518804" modified="20190620112645920" tags="TiddlyWiki" title="$:/n0d1/changelog">
 <pre>!Journal des modifications
 
-&lt;&lt;list-links &quot;[tag[$:/n0d1/changelog]sort[!title]]&quot;&gt;&gt;
+&lt;&lt;list-links &quot;[tag[$:/n0d1/changelog]!sort[title]]&quot;&gt;&gt;
 
+
+{{$:/n0d1/changelog/20190620}}
 
 {{$:/n0d1/changelog/20190619}}
 
 {{$:/n0d1/changelog/20190618}}
 
-!Évolutions à étudier/traiter
-
-*voir si exlusion possible pour la règle :before des tiddlers manquant (visible sur la liste des filtres en recherche avancée ou les tags).</pre>
+</pre>
 </div>
 <div created="20190619191102609" modified="20190619191102609" tags="$:/n0d1/changelog" title="$:/n0d1/changelog/20190618">
 <pre>!!Mardi 18/06
@@ -13357,6 +13364,53 @@ a.tc-tiddlylink.tc-tiddlylink-missing:before {
 *Ajout $:/n0d1/snippet/tag-count
 *Ajout $:/n0d1/snippet/tag
 *Ajout $:/n0d1/changelog</pre>
+</div>
+<div created="20190620110214602" modified="20190620194108848" tags="$:/n0d1/changelog" title="$:/n0d1/changelog/20190620">
+<pre>!!Mercredi 20/06
+
+*Mise à jour $:/n0d1/macro/badge
+
+
+```xml
+\define fixme()
+&lt;span class=&quot;ms-badge ms-verysmall ms-yellow&quot;&gt;&lt;i class=&quot;fas fa-wrench&quot;&gt;&lt;/i&gt; fixme&lt;/span&gt;
+\end
+
+\define help()
+&lt;span class=&quot;ms-badge ms-verysmall ms-red&quot;&gt;&lt;i class=&quot;far fa-life-ring&quot;&gt;&lt;/i&gt; help&lt;/span&gt;
+\end
+
+\define new()
+&lt;span class=&quot;ms-badge ms-verysmall ms-green&quot;&gt;&lt;i class=&quot;fas fa-bullhorn&quot;&gt;&lt;/i&gt; new&lt;/span&gt;
+\end
+```
+
+&lt;&lt;fixme&gt;&gt; &lt;&lt;help&gt;&gt; &lt;&lt;new&gt;&gt;
+
+
+```
+&lt;&lt;fixme&gt;&gt; &lt;&lt;help&gt;&gt; &lt;&lt;new&gt;&gt;
+```
+
+
+*Mise à jour $:/n0d1/css/minstyle.io.css pour impact mini badge :
+
+
+```css
+/* ajout n0d1 */
+  .ms-badge.ms-verysmall {
+    padding: 0.2rem 0.3rem;
+    display: inline;
+    font-size: 0.8rem; }
+```
+
+*Correction $:/core/ui/ViewTemplate/subtitle
+
+Déplacement du contenu après le filtre pour tester si les champs `created` et `modified` son présents.
+
+Format de date en `relativedate` &lt;br&gt;(ano sur `date` où il manque le 0 aux minutes ? exemple 13h7 au lieu de 13h07).
+
+* Ajout $:/favicon.ico</pre>
 </div>
 <div caption="Couleurs" created="20160828082942233" menu-icon="{{$:/n0d1/fa/paint-brush}}" modified="20190616193134600" tags="$:/tags/ControlPanel" title="$:/n0d1/color-edit">
 <pre>@@.ms-alert
@@ -13643,7 +13697,7 @@ Fix by n0d1
     color: #dbdbdb;
 }</pre>
 </div>
-<div created="20190305221852033" modified="20190616165707200" tags="$:/tags/Stylesheet" title="$:/n0d1/css/minstyle.io.css" type="text/css">
+<div created="20190305221852033" modified="20190620095952304" tags="$:/tags/Stylesheet" title="$:/n0d1/css/minstyle.io.css" type="text/css">
 <pre>/* 
 * minstyle.io - A simple CSS Framework ! 
 * Repo : https://github.com/Airmime/minstyle.io
@@ -13874,7 +13928,13 @@ Fix by n0d1
     font-size: 1.2rem; }
 
 a.ms-badge {
-  text-decoration: none; }</pre>
+  text-decoration: none; }
+
+/* ajout n0d1 */
+  .ms-badge.ms-verysmall {
+    padding: 0.2rem 0.3rem;
+    display: inline;
+    font-size: 0.8rem; }</pre>
 </div>
 <div created="20190616153841700" modified="20190616200311200" tags="$:/tags/Stylesheet" title="$:/n0d1/css/nunito" type="text/vnd.tiddlywiki">
 <pre>/* réglages de la police */
@@ -14415,7 +14475,7 @@ Jardiné avec &lt;&lt;fas heart 1 #D54F58&gt;&gt; par Sylvain Naudin&lt;br&gt;
 
 }</pre>
 </div>
-<div created="20190616162554300" modified="20190617202436000" title="$:/n0d1/image/header-bg.svg" type="image/svg+xml">
+<div created="20190616162554300" modified="20190620193115904" title="$:/n0d1/image/header-bg.svg" type="image/svg+xml">
 <pre>&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; width=&quot;1900&quot; height=&quot;768&quot; viewBox=&quot;0 0 502.70833 203.19999&quot;&gt;
   &lt;defs&gt;
     &lt;linearGradient id=&quot;a&quot;&gt;
@@ -14431,11 +14491,20 @@ Jardiné avec &lt;&lt;fas heart 1 #D54F58&gt;&gt; par Sylvain Naudin&lt;br&gt;
 &lt;/svg&gt;
 </pre>
 </div>
-<div created="20190616130913500" modified="20190616135536900" tags="$:/tags/Macro" title="$:/n0d1/macro/badge" type="application/x-tiddler">
+<div created="20190616130913500" modified="20190620110625383" tags="$:/tags/Macro" title="$:/n0d1/macro/badge" type="application/x-tiddler">
 <pre>\define fixme()
-&lt;span class=&quot;ms-badge ms-small ms-yellow&quot;&gt;&lt;i class=&quot;fas fa-wrench&quot;&gt;&lt;/i&gt;
-fixme&lt;/span&gt;
-\end</pre>
+&lt;span class=&quot;ms-badge ms-verysmall ms-yellow&quot;&gt;&lt;i class=&quot;fas fa-wrench&quot;&gt;&lt;/i&gt; fixme&lt;/span&gt;
+\end
+
+\define help()
+&lt;span class=&quot;ms-badge ms-verysmall ms-red&quot;&gt;&lt;i class=&quot;far fa-life-ring&quot;&gt;&lt;/i&gt; help&lt;/span&gt;
+\end
+
+\define new()
+&lt;span class=&quot;ms-badge ms-verysmall ms-green&quot;&gt;&lt;i class=&quot;fas fa-bullhorn&quot;&gt;&lt;/i&gt; new&lt;/span&gt;
+\end
+
+</pre>
 </div>
 <div created="20160512150652013" modified="20181229181848600" tags="$:/tags/Macro" title="$:/n0d1/macro/fa">
 <pre>\define fa(icon, size, color)
@@ -14720,11 +14789,11 @@ Ce wiki utilise la version ''&lt;&lt;version&gt;&gt;'' de TiddlyWiki.
 Jardiné avec &lt;&lt;fas heart 1 #D54F58&gt;&gt; par Sylvain Naudin&lt;br&gt;
 (sylvain@naudin.cc &lt;&lt;fa envelope&gt;&gt; - https://sylvain.naud.in - @naudinsylvain &lt;&lt;fab twitter&gt;&gt;)</pre>
 </div>
-<div created="20181229120346400" modified="20190619194522538" tags="$:/tags/Stylesheet" title="$:/n0d1/tw/mode/css" type="text/vnd.tiddlywiki">
+<div created="20181229120346400" modified="20190620194138279" tags="$:/tags/Stylesheet" title="$:/n0d1/tw/mode/css" type="text/vnd.tiddlywiki">
 <pre>/* pas encore utilisée - peut servir à masquer/afficher avec le bouton mode switch si besoin */
 </pre>
 </div>
-<div created="20160213171200960" modified="20190619194522538" title="$:/n0d1/tw/mode/state" type="text/vnd.tiddlywiki">
+<div created="20160213171200960" modified="20190620194138279" title="$:/n0d1/tw/mode/state" type="text/vnd.tiddlywiki">
 <pre>lecture</pre>
 </div>
 <div created="20190616153154500" description="Basculer en mode lecture/écriture" modified="20190617195330700" tags="$:/tags/PageControls" title="$:/n0d1/tw/mode/toggle" type="text/vnd.tiddlywiki">
@@ -14980,7 +15049,7 @@ Jardiné avec &lt;&lt;fas heart 1 #D54F58&gt;&gt; par Sylvain Naudin&lt;br&gt;
     }
 }</pre>
 </div>
-<div created="20190616151640400" link-action="tm-navigate" modified="20190619194522537" show-all-links="none" show-single-link="none" title="$:/plugins/wikilabs/edit-tabs/config">
+<div created="20190616151640400" link-action="tm-navigate" modified="20190620194138279" show-all-links="none" show-single-link="none" title="$:/plugins/wikilabs/edit-tabs/config">
 <pre>This tiddler is used to configure the &quot;Edit-tabs&quot; plugin behaviour. 
 
 There are 2 fields, which are used by [[$:/plugins/wikilabs/edit-tabs/styles]] enable and disable the internal links. 
@@ -15011,7 +15080,7 @@ The next field is used to define the behaviour of the link, if it's clicked.
 <div created="20190616143935700" modified="20190616144056000" title="$:/state/ShowPaletteEditor">
 <pre>no</pre>
 </div>
-<div created="20190616151640500" modified="20190619194522538" title="$:/state/sidebar">
+<div created="20190616151640500" modified="20190620194138279" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20190616124130200" modified="20190619191204071" title="$:/state/tab--1498284803">
@@ -15032,7 +15101,7 @@ The next field is used to define the behaviour of the link, if it's clicked.
 <div created="20190616125137200" modified="20190616194905200" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Tags</pre>
 </div>
-<div created="20190616123138500" modified="20190619194518817" title="$:/state/tab/sidebar--595412856">
+<div created="20190616123138500" modified="20190620194148615" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Open</pre>
 </div>
 <div created="20190616184653600" modified="20190616184659500" title="$:/state/tag-manager/minstyle.io">
@@ -15062,8 +15131,8 @@ The next field is used to define the behaviour of the link, if it's clicked.
 <div created="20190616135808300" modified="20190619192920370" title="$:/state/tree/$:/n0d1/fonts/">
 <pre>hide</pre>
 </div>
-<div created="20190616163326400" modified="20190619192918900" title="$:/state/tree/$:/n0d1/image/">
-<pre>hide</pre>
+<div created="20190616163326400" modified="20190620184443789" title="$:/state/tree/$:/n0d1/image/">
+<pre>show</pre>
 </div>
 <div created="20190616125056000" modified="20190619192917980" title="$:/state/tree/$:/n0d1/macro/">
 <pre>hide</pre>
@@ -15092,7 +15161,7 @@ The next field is used to define the behaviour of the link, if it's clicked.
 <div created="20190616201013100" modified="20190619192900099" title="$:/state/tree/$:/TheDiveO/macro/">
 <pre>hide</pre>
 </div>
-<div created="20190619190512562" list="n0d1" modified="20190619194113489" title="$:/StoryList">
+<div created="20190620193945038" list="n0d1" modified="20190620194035896" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20190616173012200" list="$:/language/Snippets/ListByTag $:/language/Snippets/MacroDefinition $:/language/Snippets/Table4x3 $:/language/Snippets/TableOfContents $:/n0d1/snippet/@alerte $:/n0d1/snippet/@information $:/n0d1/snippet/@valide $:/n0d1/snippet/@completer $:/n0d1/snippet/@titre $:/n0d1/snippet/@neutre $:/n0d1/snippet/@clear" modified="20190616173015400" title="$:/tags/TextEditor/Snippet">
@@ -15117,7 +15186,7 @@ The next field is used to define the behaviour of the link, if it's clicked.
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///D:/Profils/B513/Downloads/tiddlywikilocations/n0d1-index.html&quot;
+            &quot;text&quot;: &quot;file:///D:/Profils/B513/Downloads/tiddlywikilocations/n0d1-master.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -15137,7 +15206,7 @@ The next field is used to define the behaviour of the link, if it's clicked.
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/D:/Profils/B513/Downloads/tiddlywikilocations/n0d1-index.html&quot;
+            &quot;text&quot;: &quot;/D:/Profils/B513/Downloads/tiddlywikilocations/n0d1-master.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -15833,7 +15902,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div author="JeremyRuston" core-version="&gt;=5.0.0" created="20190616123056000" dependents="" description="Basic theme" modified="20190616123056000" name="Vanilla" original-plugin-type="theme" original-tags="" original-title="$:/themes/tiddlywiki/vanilla" original-type="application/json" plugin-priority="0" server-url="https://tiddlywiki.com/library/v5.1.19/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.19/index.html/$:/themes/tiddlywiki/vanilla" type="text/vnd.tiddlywiki" version="5.1.19">
 <pre></pre>
 </div>
-<div created="20190616151640500" modified="20190619194522537" title="$:/temp/search">
+<div created="20190616151640500" modified="20190620194138279" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20190616125518200" modified="20190616125518200" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.19/index.html" url="https://tiddlywiki.com/library/v5.1.19/index.html">
@@ -16893,10 +16962,11 @@ https://minstyle.io/doc/
 
 &lt;&lt;toc minstyle.io&gt;&gt;</pre>
 </div>
-<div created="20190616123150200" modified="20190619174325582" title="n0d1">
+<div created="20190616123150200" modified="20190620193750758" title="n0d1">
 <pre>!À propos
 
-Ce wiki a été préparé avec &lt;&lt;fa heart 1 #D54F58&gt;&gt; par ''Sylvain NAUDIN''.
+Ce wiki a été préparé avec &lt;&lt;fa heart 1 #D54F58&gt;&gt; par ''Sylvain NAUDIN''.&lt;br&gt;
+Consultez les dernières modifications : $:/n0d1/changelog
 
 &lt;a class=&quot;ms-badge-gh&quot; href=&quot;https://github.com/silvyn/tw-n0d1&quot; target=&quot;_blank&quot;&gt;
 	&lt;span class=&quot;ms-dark-side&quot;&gt;
@@ -17015,7 +17085,7 @@ Optimiser SVG : https://jakearchibald.github.io/svgomg/
 <div color="#5ca745" created="20190616194917100" modified="20190616194917100" title="Terminée">
 <pre></pre>
 </div>
-<div color="#5778d8" created="20190616124249400" modified="20190619192246472" title="TiddlyWiki">
+<div color="#5778d8" created="20190616124249400" modified="20190620194026856" title="TiddlyWiki">
 <pre>''~TiddlyWiki'' (TW) est un programme Open Source sous licence &lt;abbr title=&quot;Berkeley software distribution&quot;&gt;BSD&lt;/abbr&gt; créé par ''Jeremy Ruston''.
 
 https://www.tiddlywiki.com &lt;&lt;fa link 1 #3498DB&gt;&gt;
@@ -17056,7 +17126,7 @@ Pour sauvegarder une copie de ce fichier, cliquez sur le bouton suivant :
 
 !!&lt;&lt;fa magic&gt;&gt; Tiddlers
 
-* $:/favicon.ico &lt;&lt;fixme&gt;&gt;
+* $:/favicon.ico
 * $:/SplashScreen &lt;&lt;fixme&gt;&gt;
 * $:/core/ui/ViewTemplate/subtitle pour l'ajout de la dernière modification (astuce Tobias).
 
