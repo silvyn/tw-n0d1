@@ -48,7 +48,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 <link id="faviconLink" rel="shortcut icon" href="favicon.ico">
 <title>TiddlyWiki — Bloc note personnel</title>
 <!--~~ This is a Tiddlywiki file. The points of interest in the file are marked with this pattern ~~--><!--~~ Raw markup ~~-->
+<meta property="og:site_name" content="TiddlyWiki by n0d1"/>
+<meta property="og:title" content="n0d1 bloc note personnel TiddlyWiki"/>
+<meta property="og:url" content="https://silvyn.github.io/tw-n0d1/"/>
+<meta property="og:image" content="https://silvyn.github.io/tw-n0d1/img/tiddlywiki-n0d1.png"/>
+<meta property="og:description" content="Un wiki prêt à l'emploi, préparé par Sylvain Naudin avec TiddlyWiki"/>
 
+<meta name="twitter:site" content="@naudinsylvain" />
 
 </head>
 <body class="tc-body">
@@ -246,6 +252,8 @@ Error message and password prompt
 <li>$:/n0d1/macro/fas</li>
 
 <li>$:/n0d1/macro/progression</li>
+
+<li>$:/n0d1/OpenGraph</li>
 
 <li>$:/n0d1/palettes/n0d1</li>
 
@@ -615,26 +623,26 @@ Error message and password prompt
 <!--~~ Ordinary tiddlers ~~-->
 
 <div id="storeArea" style="display:none;">
-<div created="20190616151640400" modified="20190629213230268" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
-<pre>hide</pre>
+<div created="20190616151640400" modified="20190629225647458" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel">
+<pre>show</pre>
 </div>
 <div created="20190616123140000" modified="20190616123140000" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
-<div created="20190616151640400" modified="20190629213230268" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
-<pre>hide</pre>
+<div created="20190616151640400" modified="20190629225647458" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/more-page-actions">
+<pre>show</pre>
 </div>
-<div created="20190616151640400" modified="20190629213230268" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
-<pre>hide</pre>
+<div created="20190616151640400" modified="20190629225647458" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-tiddler">
+<pre>show</pre>
 </div>
 <div created="20190629202652032" modified="20190629202652032" title="$:/config/RelinkOnRename">
 <pre>yes</pre>
 </div>
-<div created="20190616151640400" modified="20190629213230268" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
-<pre>hide</pre>
+<div created="20190616151640400" modified="20190629225647458" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/edit">
+<pre>show</pre>
 </div>
-<div created="20190616151640400" modified="20190629213230268" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
-<pre>hide</pre>
+<div created="20190616151640400" modified="20190629225647458" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions">
+<pre>show</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.19">
 <pre>{
@@ -9515,7 +9523,7 @@ Error message and password prompt
 <div created="20190618190954100" modified="20190618193448400" tags="$:/tags/Image" title="$:/core/images/chevron-right">
 <pre>&lt;&lt;fa angle-right 2 #ecf0f1&gt;&gt;</pre>
 </div>
-<div caption="{{$:/language/Search/Filter/Caption}}" created="20190616151640500" modified="20190629213230270" tags="" title="$:/core/ui/AdvancedSearch/Filter">
+<div caption="{{$:/language/Search/Filter/Caption}}" created="20190616151640500" modified="20190629225647458" tags="$:/tags/AdvancedSearch" title="$:/core/ui/AdvancedSearch/Filter">
 <pre>\define lingo-base() $:/language/Search/
 &lt;&lt;lingo Filter/Hint&gt;&gt;
 
@@ -9534,7 +9542,7 @@ Error message and password prompt
 &lt;/$reveal&gt;
 </pre>
 </div>
-<div caption="{{$:/language/Search/Shadows/Caption}}" created="20190616151640500" modified="20190629213230270" tags="" title="$:/core/ui/AdvancedSearch/Shadows">
+<div caption="{{$:/language/Search/Shadows/Caption}}" created="20190616151640500" modified="20190629225647458" tags="$:/tags/AdvancedSearch" title="$:/core/ui/AdvancedSearch/Shadows">
 <pre>\define lingo-base() $:/language/Search/
 &lt;$linkcatcher to=&quot;$:/temp/advancedsearch&quot;&gt;
 
@@ -9577,7 +9585,7 @@ Error message and password prompt
 &lt;/$reveal&gt;
 </pre>
 </div>
-<div caption="{{$:/language/Search/System/Caption}}" created="20190616151640500" modified="20190629213230270" tags="" title="$:/core/ui/AdvancedSearch/System">
+<div caption="{{$:/language/Search/System/Caption}}" created="20190616151640500" modified="20190629225647458" tags="$:/tags/AdvancedSearch" title="$:/core/ui/AdvancedSearch/System">
 <pre>\define lingo-base() $:/language/Search/
 &lt;$linkcatcher to=&quot;$:/temp/advancedsearch&quot;&gt;
 
@@ -9620,12 +9628,12 @@ Error message and password prompt
 &lt;/$reveal&gt;
 </pre>
 </div>
-<div caption="{{$:/language/SideBar/More/Caption}}" created="20190616151640500" modified="20190629213230270" tags="" title="$:/core/ui/SideBar/More">
+<div caption="{{$:/language/SideBar/More/Caption}}" created="20190616151640500" modified="20190629225647458" tags="$:/tags/SideBar" title="$:/core/ui/SideBar/More">
 <pre>&lt;div class=&quot;tc-more-sidebar&quot;&gt;
 &lt;$macrocall $name=&quot;tabs&quot; tabsList=&quot;[all[shadows+tiddlers]tag[$:/tags/MoreSideBar]!has[draft.of]]&quot; default={{$:/config/DefaultMoreSidebarTab}} state=&quot;$:/state/tab/moresidebar&quot; class=&quot;tc-vertical&quot; /&gt;
 &lt;/div&gt;</pre>
 </div>
-<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20190616151640500" modified="20190629213230270" tags="" title="$:/core/ui/SideBar/Tools">
+<div caption="{{$:/language/SideBar/Tools/Caption}}" created="20190616151640500" modified="20190629225647458" tags="$:/tags/SideBar" title="$:/core/ui/SideBar/Tools">
 <pre>\define lingo-base() $:/language/ControlPanel/
 \define config-title()
 $:/config/PageControlButtons/Visibility/$(listItem)$
@@ -14103,7 +14111,7 @@ a.tc-tiddlylink-resolves {
 	font-family: 'nunito_extraboldregular';
 }</pre>
 </div>
-<div created="20190629193045093" modified="20190629211333836" tags="" title="$:/n0d1/css/svgbackground/01">
+<div created="20190629193045093" modified="20190629220248165" tags="" title="$:/n0d1/css/svgbackground/01">
 <pre>.tc-body {
 /* background by SVGBackgrounds.com */
 background-color: #ff9d00;
@@ -14112,7 +14120,7 @@ background-attachment: fixed;
 background-size: cover;
 }</pre>
 </div>
-<div created="20190629193231249" modified="20190629211333837" tags="" title="$:/n0d1/css/svgbackground/02">
+<div created="20190629193231249" modified="20190629220248165" tags="" title="$:/n0d1/css/svgbackground/02">
 <pre>.tc-body {
 /* background by SVGBackgrounds.com */
 background-color: #ff9d00;
@@ -14121,7 +14129,7 @@ background-attachment: fixed;
 background-size: cover;
 }</pre>
 </div>
-<div created="20190629191738550" modified="20190629211333838" tags="" title="$:/n0d1/css/svgbackground/03">
+<div created="20190629191738550" modified="20190629220248165" tags="" title="$:/n0d1/css/svgbackground/03">
 <pre>.tc-body {
 /* background by SVGBackgrounds.com */
 /* https://www.svgbackgrounds.com/#rainbow-vortex */
@@ -14131,7 +14139,7 @@ background-attachment: fixed;
 background-size: cover;
 }</pre>
 </div>
-<div created="20190629192310743" modified="20190629211333838" tags="" title="$:/n0d1/css/svgbackground/04">
+<div created="20190629192310743" modified="20190629220248165" tags="" title="$:/n0d1/css/svgbackground/04">
 <pre>.tc-body {
 /* background by SVGBackgrounds.com */
 background-color: #210024;
@@ -14140,7 +14148,7 @@ background-attachment: fixed;
 background-size: cover;
 }</pre>
 </div>
-<div created="20190629192821615" modified="20190629211333838" tags="" title="$:/n0d1/css/svgbackground/05">
+<div created="20190629192821615" modified="20190629220248165" tags="" title="$:/n0d1/css/svgbackground/05">
 <pre>.tc-body {
 /* background by SVGBackgrounds.com */
 /* original inversé #210024 vers #FF9D00 */
@@ -14150,7 +14158,7 @@ background-attachment: fixed;
 background-size: cover;
 }</pre>
 </div>
-<div created="20190629102652300" modified="20190629211333838" tags="$:/tags/Stylesheet" title="$:/n0d1/css/svgbackground/06">
+<div created="20190629102652300" modified="20190629220248165" tags="" title="$:/n0d1/css/svgbackground/06">
 <pre>.tc-body {
 /* background by SVGBackgrounds.com */
 /* https://www.svgbackgrounds.com/#rainbow-vortex */
@@ -14160,7 +14168,7 @@ background-attachment: fixed;
 background-size: cover;
 }</pre>
 </div>
-<div created="20190629194608463" modified="20190629211333838" tags="" title="$:/n0d1/css/svgbackground/07">
+<div created="20190629194608463" modified="20190629220248165" tags="$:/tags/Stylesheet" title="$:/n0d1/css/svgbackground/07">
 <pre>.tc-body {
 /* background by SVGBackgrounds.com */
 background-color: #35033c;
@@ -14169,7 +14177,7 @@ background-attachment: fixed;
 background-size: cover;
 }</pre>
 </div>
-<div created="20190629205849486" modified="20190629211333838" tags="" title="$:/n0d1/css/svgbackground/08">
+<div created="20190629205849486" modified="20190629220248165" tags="" title="$:/n0d1/css/svgbackground/08">
 <pre>.tc-body {
 /* background by SVGBackgrounds.com */
 background-color: #685e79;
@@ -14859,6 +14867,15 @@ style=&quot;color:$color$&quot;&gt;&lt;/span&gt;
 &lt;/div&gt;
 \end</pre>
 </div>
+<div created="20190629220038148" modified="20190629224646129" tags="$:/tags/RawMarkup" title="$:/n0d1/OpenGraph">
+<pre>&lt;meta property=&quot;og:site_name&quot; content=&quot;TiddlyWiki by n0d1&quot;/&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;n0d1 bloc note personnel TiddlyWiki&quot;/&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;https://silvyn.github.io/tw-n0d1/&quot;/&gt;
+&lt;meta property=&quot;og:image&quot; content=&quot;https://silvyn.github.io/tw-n0d1/img/tiddlywiki-n0d1.png&quot;/&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;Un wiki prêt à l'emploi, préparé par Sylvain Naudin avec TiddlyWiki&quot;/&gt;
+
+&lt;meta name=&quot;twitter:site&quot; content=&quot;@naudinsylvain&quot; /&gt;</pre>
+</div>
 <div created="20190616143937900" description="Version 16062019" modified="20190616174738700" name="n0d1" tags="$:/tags/Palette" title="$:/n0d1/palettes/n0d1" type="application/x-tiddler-dictionary">
 <pre>alert-background: #ffe476
 alert-border: #b99e2f
@@ -15032,12 +15049,12 @@ Ce wiki utilise la version ''&lt;&lt;version&gt;&gt;'' de TiddlyWiki.
 Jardiné avec &lt;&lt;fas heart 1 #D54F58&gt;&gt; par Sylvain Naudin&lt;br&gt;
 (sylvain@naudin.cc &lt;&lt;fa envelope&gt;&gt; - https://sylvain.naud.in - @naudinsylvain &lt;&lt;fab twitter&gt;&gt;)</pre>
 </div>
-<div created="20181229120346400" modified="20190629213230270" tags="$:/tags/Stylesheet" title="$:/n0d1/tw/mode/css" type="text/vnd.tiddlywiki">
+<div created="20181229120346400" modified="20190629225647457" tags="" title="$:/n0d1/tw/mode/css" type="text/vnd.tiddlywiki">
 <pre>/* pas encore utilisée - peut servir à masquer/afficher avec le bouton mode switch si besoin */
 </pre>
 </div>
-<div created="20160213171200960" modified="20190629213230269" title="$:/n0d1/tw/mode/state" type="text/vnd.tiddlywiki">
-<pre>lecture</pre>
+<div created="20160213171200960" modified="20190629225647457" title="$:/n0d1/tw/mode/state" type="text/vnd.tiddlywiki">
+<pre>admin</pre>
 </div>
 <div created="20190616153154500" description="Basculer en mode lecture/écriture" modified="20190617195330700" tags="$:/tags/PageControls" title="$:/n0d1/tw/mode/toggle" type="text/vnd.tiddlywiki">
 <pre>\define visibility(tiddler) $:/config/ViewToolbarButtons/Visibility/$tiddler$
@@ -15292,7 +15309,7 @@ Jardiné avec &lt;&lt;fas heart 1 #D54F58&gt;&gt; par Sylvain Naudin&lt;br&gt;
     }
 }</pre>
 </div>
-<div created="20190616151640400" link-action="tm-navigate" modified="20190629213230268" show-all-links="none" show-single-link="none" title="$:/plugins/wikilabs/edit-tabs/config">
+<div created="20190616151640400" link-action="tm-navigate" modified="20190629225647457" show-all-links="none" show-single-link="inline" title="$:/plugins/wikilabs/edit-tabs/config">
 <pre>This tiddler is used to configure the &quot;Edit-tabs&quot; plugin behaviour. 
 
 There are 2 fields, which are used by [[$:/plugins/wikilabs/edit-tabs/styles]] enable and disable the internal links. 
@@ -15323,7 +15340,7 @@ The next field is used to define the behaviour of the link, if it's clicked.
 <div created="20190616143935700" modified="20190616144056000" title="$:/state/ShowPaletteEditor">
 <pre>no</pre>
 </div>
-<div created="20190616151640500" modified="20190629213230269" title="$:/state/sidebar">
+<div created="20190616151640500" modified="20190629225647458" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20190616124130200" modified="20190629195903216" title="$:/state/tab--1498284803">
@@ -15356,7 +15373,7 @@ The next field is used to define the behaviour of the link, if it's clicked.
 <div created="20190616125137200" modified="20190616194905200" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Tags</pre>
 </div>
-<div created="20190616123138500" modified="20190629211342562" title="$:/state/tab/sidebar--595412856">
+<div created="20190616123138500" modified="20190629225646044" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Open</pre>
 </div>
 <div created="20190616184653600" modified="20190616184659500" title="$:/state/tag-manager/minstyle.io">
@@ -15401,8 +15418,8 @@ The next field is used to define the behaviour of the link, if it's clicked.
 <div created="20190616144555600" modified="20190619192915329" title="$:/state/tree/$:/n0d1/palettes/">
 <pre>hide</pre>
 </div>
-<div created="20190616172530600" modified="20190616200859200" title="$:/state/tree/$:/n0d1/snippet/">
-<pre>hide</pre>
+<div created="20190616172530600" modified="20190629215623918" title="$:/state/tree/$:/n0d1/snippet/">
+<pre>show</pre>
 </div>
 <div created="20190616153937800" modified="20190616174820200" title="$:/state/tree/$:/n0d1/tw/">
 <pre>show</pre>
@@ -15425,7 +15442,7 @@ The next field is used to define the behaviour of the link, if it's clicked.
 <div created="20190616201013100" modified="20190619192900099" title="$:/state/tree/$:/TheDiveO/macro/">
 <pre>hide</pre>
 </div>
-<div created="20190629211319599" list="n0d1" modified="20190629211941426" title="$:/StoryList">
+<div list="n0d1" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20190616173012200" list="$:/language/Snippets/ListByTag $:/language/Snippets/MacroDefinition $:/language/Snippets/Table4x3 $:/language/Snippets/TableOfContents $:/n0d1/snippet/@alerte $:/n0d1/snippet/@information $:/n0d1/snippet/@valide $:/n0d1/snippet/@completer $:/n0d1/snippet/@titre $:/n0d1/snippet/@neutre $:/n0d1/snippet/@clear" modified="20190616173015400" title="$:/tags/TextEditor/Snippet">
@@ -15450,7 +15467,7 @@ The next field is used to define the behaviour of the link, if it's clicked.
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///Users/n0d1/Downloads/index.html&quot;
+            &quot;text&quot;: &quot;file:///Users/n0d1/Documents/TiddlyWiki/index.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -15470,7 +15487,7 @@ The next field is used to define the behaviour of the link, if it's clicked.
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/Users/n0d1/Downloads/index.html&quot;
+            &quot;text&quot;: &quot;/Users/n0d1/Documents/TiddlyWiki/index.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -16166,7 +16183,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div author="JeremyRuston" core-version="&gt;=5.0.0" created="20190616123056000" dependents="" description="Basic theme" modified="20190616123056000" name="Vanilla" original-plugin-type="theme" original-tags="" original-title="$:/themes/tiddlywiki/vanilla" original-type="application/json" plugin-priority="0" server-url="https://tiddlywiki.com/library/v5.1.19/index.html" tags="$:/tags/RemoteAssetInfo" title="$:/temp/RemoteAssetInfo/https://tiddlywiki.com/library/v5.1.19/index.html/$:/themes/tiddlywiki/vanilla" type="text/vnd.tiddlywiki" version="5.1.19">
 <pre></pre>
 </div>
-<div created="20190616151640500" modified="20190629213230269" title="$:/temp/search">
+<div created="20190616151640500" modified="20190629225647458" title="$:/temp/search">
 <pre></pre>
 </div>
 <div created="20190616125518200" modified="20190616125518200" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.19/index.html" url="https://tiddlywiki.com/library/v5.1.19/index.html">
